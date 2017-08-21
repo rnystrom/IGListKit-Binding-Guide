@@ -9,17 +9,23 @@ PODS:
   - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
-  - IGListKit (from `../../IGListKit.podspec`)
+  - IGListKit (from `https://github.com/Instagram/IGListKit.git`, branch `master`)
   - SDWebImage (~> 4.0.0)
 
 EXTERNAL SOURCES:
   IGListKit:
-    :path: ../../IGListKit.podspec
+    :branch: master
+    :git: https://github.com/Instagram/IGListKit.git
+
+CHECKOUT OPTIONS:
+  IGListKit:
+    :commit: 5ca167806b9db66ff119a5f8ae698e623a495b02
+    :git: https://github.com/Instagram/IGListKit.git
 
 SPEC CHECKSUMS:
   IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: b0bbee8dbedbc688eea1fec53861683dad90dfc2
+PODFILE CHECKSUM: eb00e38c136123051b9c6c11828b6883d0d823f9
 
 COCOAPODS: 1.3.1
